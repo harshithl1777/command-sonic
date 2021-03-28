@@ -2,7 +2,14 @@
   "name": "command-sonic",
   "version": "1.0.0",
   "description": "A command line tool that shortens command workflows into a single line",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "command-sonic": "bin/command-sonic",
+    "cs": "bin/command-sonic"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +27,11 @@
     "sonic"
   ],
   "author": "Harshith Latchupatula",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "esm": "^3.2.25",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0"
+  }
 }

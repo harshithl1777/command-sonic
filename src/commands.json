@@ -1,0 +1,13 @@
+{
+    "commands": [
+        {
+            "name": "Test"
+        },
+        {
+            "why": "whynot"
+        },
+        {
+            "new": "Hello"
+        }
+    ]
+}
